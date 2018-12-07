@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "HTML, CSS, JS TicTacToe",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peytonshetler/TicTacToe.git"
+  },
+  "keywords": [
+    "TicTacToe",
+    "Star",
+    "Wars"
+  ],
+  "author": "Peyton Shetler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peytonshetler/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/peytonshetler/TicTacToe#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

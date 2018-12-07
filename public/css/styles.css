@@ -1,0 +1,123 @@
+#board {
+    padding-top: 6em;
+    text-align: left;
+}
+
+.row div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+    
+}
+
+.top {
+    border-bottom: 1px solid black;
+    
+    
+}
+
+.bottom {
+    border-top: 1px solid black;
+    
+    
+    
+}
+
+.left {
+    border-right: 1px solid black;
+    
+    
+}
+
+.right {
+    border-left: 1px solid black;
+    
+}
+
+.cell {
+    text-align: center;
+    font-size: 3.0em;
+    background-color: rgb(95, 94, 94);
+    text-align: center;
+    font-family: Cairo;
+    border: rgb(95, 94, 94), solid, 1px;
+    border-radius: 8px;
+
+}
+
+h1 {
+    position: absolute;
+    top: 2.0em;
+    font-family: Cairo;
+    color: rgb(1, 225, 233);
+    font-weight: 600;
+    font-size: 1.0em;
+    left: 2em;
+    width: 14em;
+    top: 1em;
+    height: 3em;
+    
+ 
+    
+}
+
+#announcer {
+    position: absolute;
+    color: white;
+    font-family: Cairo;
+    top: -2em;
+    font-size: 1.3em;
+    left: 16.4em;
+    width: 8em;
+    top: 10em;
+}
+
+body {
+    background-image: url('../images/death star.jpg');
+    background-size: cover;
+    background-position: top 200px;
+    width: 700px;
+}
+
+.slopeborder {
+    position: absolute;
+    
+    height: 18.87em;
+    width: 22em;
+    left: 13em;
+    border-radius: 8px;
+    top: 18em;
+}
+
+.space {
+    position: relative;
+    color: rgb(1, 225, 233);
+    width:11em;
+    left: 4.2em;
+    font-family: Cairo;
+    font-size: 1.8em;
+    top: -3.5em;
+
+}
+
+@font-face {
+    font-family: Death Star;
+    src: url(deathstar.otf);
+}
+
+.main-font {
+    position: relative;
+    font-family: Death Star;
+    color: gold;
+    font-size: 4.5em;
+    left: 2.6em;
+    top: 0.3em;
+    
+
+}
